@@ -1,0 +1,17 @@
+.single_chat{
+margin: 10px;
+border: 1px solid #abc;
+padding: 5px;
+background: white;
+}
+input,textarea,button{width: 100%;border: 1px solid #eaeaea;margin: 4px;padding: 5px;}
+
+.wrapper>div{float: left;}
+.left{width: 68%;height: 200px;
+    overflow: auto;
+    border: 3px solid #abc;
+    background: #dedddd;}
+.right{width: 29%}
+.active{color: #0d0;}
+.inactive{color: #ddd;}
+.chat-scroll{position: absolute; top:0px; bottom: 0px; overflow-y: auto;}
